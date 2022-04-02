@@ -55,6 +55,7 @@
       })
 
       alert('Registered Successfully!');
+      location.href = "userIndex.html"
     })
     .catch((error) => {
       // Firebase will use this to alert of its errors
