@@ -71,6 +71,19 @@
     padding-left: 3px;
 }
 
+.userMenu div, button{
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: normal;
+    color: #9F9F9F;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.userMenu div+button{
+    border-left: 1px solid #9F9F9F;
+    padding-left: 7px;
+}
+
 .vl{
     border-left: 2px solid #9F9F9F;
     height: 4px;
